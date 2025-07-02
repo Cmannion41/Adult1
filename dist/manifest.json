@@ -5,10 +5,12 @@
   "description": "Automatically appends include_adult=true to TMDB API calls in Wako.",
   "author": "Cmannion41",
   "actions": ["movies", "episodes", "shows"],
-  "entryPointVersion": 3,
-  "entryPointV3": "https://raw.githubusercontent.com/Cmannion41/Adult1/master/dist/plugin.js",
+  "entryPointV3": "/plugin.js",
   "languages": {
-    "en": "https://raw.githubusercontent.com/Cmannion41/Adult1/master/dist/i18n/en.json"
+    "en": "/i18n/en.json",
+    "fr": "/i18n/fr.json",
+    "it": "/i18n/it.json",
+    "de": "/i18n/de.json" 
   },
   "changeLogs": {
     "1.0.0": "Initial release with include_adult patch"
