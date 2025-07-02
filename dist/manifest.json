@@ -1,23 +1,16 @@
 {
-  "$schema": "https://raw.githubusercontent.com/wako-app/mobile-sdk/master/dist/manifest-schema.json",
-  "version": "1.0.4",
-  "id": "plugin.tmdb",
-  "name": "The Movie DB",
-  "description": "Add a button to view the item on themoviedb.org",
-  "author": "wako",
+  "version": "1.0.0",
+  "id": "plugin.tmdb-adult",
+  "name": "TMDB Include Adult",
+  "description": "Automatically appends include_adult=true to TMDB API calls in Wako.",
+  "author": "Cmannion41",
   "actions": ["movies", "episodes", "shows"],
   "entryPointVersion": 3,
   "entryPointV3": "https://raw.githubusercontent.com/Cmannion41/tmdb-addon/master/dist/plugin.js",
   "languages": {
-    "en": "https://raw.githubusercontent.com/Cmannion41/tmdb-addon/master/dist/i18n/en.json",
-    "fr": "https://raw.githubusercontent.com/Cmannion41/tmdb-addon/master/dist/i18n/fr.json",
-    "it": "https://raw.githubusercontent.com/Cmannion41/tmdb-addon/master/dist/i18n/it.json",
-    "de": "https://raw.githubusercontent.com/Cmannion41/tmdb-addon/master/dist/i18n/de.json"
+    "en": "https://raw.githubusercontent.com/Cmannion41/tmdb-addon/master/dist/i18n/en.json"
   },
   "changeLogs": {
-    "1.0.4": "Fix language issue",
-    "1.0.3": "Redirect to tmdb using wako's language",
-    "1.0.2": "Use internal browser",
-    "1.0.0": "Initial Versio3n"
+    "1.0.0": "Initial release with include_adult patch"
   }
 }
