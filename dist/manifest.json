@@ -6,9 +6,9 @@
   "author": "Cmannion41",
   "actions": ["movies", "episodes", "shows"],
   "entryPointVersion": 3,
-  "entryPointV3": "https://raw.githubusercontent.com/Cmannion41/tmdb-addon/master/dist/plugin.js",
+  "entryPointV3": "https://raw.githubusercontent.com/Cmannion41/Adult1/master/dist/plugin.js",
   "languages": {
-    "en": "https://raw.githubusercontent.com/Cmannion41/tmdb-addon/master/dist/i18n/en.json"
+    "en": "https://raw.githubusercontent.com/Cmannion41/Adult1/master/dist/i18n/en.json"
   },
   "changeLogs": {
     "1.0.0": "Initial release with include_adult patch"
