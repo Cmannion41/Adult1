@@ -1,3 +1,4 @@
 {
-  "viewOnTMDB": "View on TMDB"
+  "plugin.tmdb-adult.name": "TMDB Include Adult",
+  "plugin.tmdb-adult.description": "Automatically appends include_adult=true to TMDB API calls."
 }
